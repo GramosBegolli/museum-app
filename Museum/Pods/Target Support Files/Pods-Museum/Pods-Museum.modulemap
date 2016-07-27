@@ -1,0 +1,6 @@
+framework module Pods_Museum {
+  umbrella header "Pods-Museum-umbrella.h"
+
+  export *
+  module * { export * }
+}

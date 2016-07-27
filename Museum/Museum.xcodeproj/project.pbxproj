@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B67F9A0699813B9E5993A34 /* Pods_MuseumTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0E1E636D3DCC891562CADC /* Pods_MuseumTests.framework */; };
+		6814F95E1D44AE8700B40C7A /* Museum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6814F95D1D44AE8700B40C7A /* Museum.swift */; };
+		686F9D901D43C48700658451 /* Painting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686F9D8F1D43C48700658451 /* Painting.swift */; };
+		686F9D921D43C74100658451 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686F9D911D43C74100658451 /* Network.swift */; };
+		6893A8DC1D4017180011D937 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6893A8DB1D4017180011D937 /* AppDelegate.swift */; };
+		6893A8E11D4017180011D937 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6893A8DF1D4017180011D937 /* Main.storyboard */; };
+		6893A8E31D4017180011D937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6893A8E21D4017180011D937 /* Assets.xcassets */; };
+		6893A8E61D4017180011D937 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6893A8E41D4017180011D937 /* LaunchScreen.storyboard */; };
+		6893A8F11D4017180011D937 /* MuseumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6893A8F01D4017180011D937 /* MuseumTests.swift */; };
+		6893A8FC1D4017180011D937 /* MuseumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6893A8FB1D4017180011D937 /* MuseumUITests.swift */; };
+		6893A90C1D4019650011D937 /* MuseumCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6893A90B1D4019650011D937 /* MuseumCollectionViewController.swift */; };
+		6893A9101D401D8F0011D937 /* MuseumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6893A90F1D401D8F0011D937 /* MuseumCollectionViewCell.swift */; };
+		68F9C1371D48C436003ED3ED /* ExtensionUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F9C1361D48C436003ED3ED /* ExtensionUtility.swift */; };
+		68F9C1391D49358C003ED3ED /* MuseumCollectionViewController+CellDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F9C1381D49358C003ED3ED /* MuseumCollectionViewController+CellDelegates.swift */; };
+		8A7E401D7BF421980AB8F81D /* Pods_Museum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0E5BFBD2187AE535DF3BDE /* Pods_Museum.framework */; };
+		BD1C990E3FA3FE0C14EA3BE9 /* Pods_MuseumUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178AC27EB2762AB060F17472 /* Pods_MuseumUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6893A8ED1D4017180011D937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6893A8D01D4017170011D937 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6893A8D71D4017170011D937;
+			remoteInfo = Museum;
+		};
+		6893A8F81D4017180011D937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6893A8D01D4017170011D937 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6893A8D71D4017170011D937;
+			remoteInfo = Museum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		178AC27EB2762AB060F17472 /* Pods_MuseumUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuseumUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0E5BFBD2187AE535DF3BDE /* Pods_Museum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Museum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61DFDE237CC565EFD8F98508 /* Pods-Museum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Museum.release.xcconfig"; path = "Pods/Target Support Files/Pods-Museum/Pods-Museum.release.xcconfig"; sourceTree = "<group>"; };
+		6814F95D1D44AE8700B40C7A /* Museum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Museum.swift; sourceTree = "<group>"; };
+		686F9D8F1D43C48700658451 /* Painting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Painting.swift; sourceTree = "<group>"; };
+		686F9D911D43C74100658451 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		6893A8D81D4017170011D937 /* Museum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Museum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6893A8DB1D4017180011D937 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6893A8E01D4017180011D937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6893A8E21D4017180011D937 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6893A8E51D4017180011D937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6893A8E71D4017180011D937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6893A8EC1D4017180011D937 /* MuseumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6893A8F01D4017180011D937 /* MuseumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumTests.swift; sourceTree = "<group>"; };
+		6893A8F21D4017180011D937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6893A8F71D4017180011D937 /* MuseumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6893A8FB1D4017180011D937 /* MuseumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumUITests.swift; sourceTree = "<group>"; };
+		6893A8FD1D4017180011D937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6893A90B1D4019650011D937 /* MuseumCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuseumCollectionViewController.swift; sourceTree = "<group>"; };
+		6893A90F1D401D8F0011D937 /* MuseumCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuseumCollectionViewCell.swift; sourceTree = "<group>"; };
+		68F9C1361D48C436003ED3ED /* ExtensionUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUtility.swift; sourceTree = "<group>"; };
+		68F9C1381D49358C003ED3ED /* MuseumCollectionViewController+CellDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MuseumCollectionViewController+CellDelegates.swift"; sourceTree = "<group>"; };
+		98A4DDEA271896A814A97F56 /* Pods-MuseumUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseumUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuseumUITests/Pods-MuseumUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9CD71AB34E37627579381B2E /* Pods-MuseumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseumTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuseumTests/Pods-MuseumTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE0E1E636D3DCC891562CADC /* Pods_MuseumTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuseumTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D529DB65F9AE166B090879F1 /* Pods-MuseumTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseumTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuseumTests/Pods-MuseumTests.release.xcconfig"; sourceTree = "<group>"; };
+		D865E6DA9F3B9455673B58F8 /* Pods-MuseumUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseumUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuseumUITests/Pods-MuseumUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAC5BD50C648D991C4BAD88D /* Pods-Museum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Museum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Museum/Pods-Museum.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6893A8D51D4017170011D937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7E401D7BF421980AB8F81D /* Pods_Museum.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6893A8E91D4017180011D937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B67F9A0699813B9E5993A34 /* Pods_MuseumTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6893A8F41D4017180011D937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1C990E3FA3FE0C14EA3BE9 /* Pods_MuseumUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44318168D9D6A845DE6550AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAC5BD50C648D991C4BAD88D /* Pods-Museum.debug.xcconfig */,
+				61DFDE237CC565EFD8F98508 /* Pods-Museum.release.xcconfig */,
+				9CD71AB34E37627579381B2E /* Pods-MuseumTests.debug.xcconfig */,
+				D529DB65F9AE166B090879F1 /* Pods-MuseumTests.release.xcconfig */,
+				D865E6DA9F3B9455673B58F8 /* Pods-MuseumUITests.debug.xcconfig */,
+				98A4DDEA271896A814A97F56 /* Pods-MuseumUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		686F9D8E1D43C46700658451 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				686F9D911D43C74100658451 /* Network.swift */,
+				6814F95D1D44AE8700B40C7A /* Museum.swift */,
+				686F9D8F1D43C48700658451 /* Painting.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6893A8CF1D4017170011D937 = {
+			isa = PBXGroup;
+			children = (
+				6893A8DA1D4017180011D937 /* Museum */,
+				6893A8EF1D4017180011D937 /* MuseumTests */,
+				6893A8FA1D4017180011D937 /* MuseumUITests */,
+				6893A8D91D4017170011D937 /* Products */,
+				44318168D9D6A845DE6550AF /* Pods */,
+				F30E6A45F1A294A875647F9B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6893A8D91D4017170011D937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6893A8D81D4017170011D937 /* Museum.app */,
+				6893A8EC1D4017180011D937 /* MuseumTests.xctest */,
+				6893A8F71D4017180011D937 /* MuseumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6893A8DA1D4017180011D937 /* Museum */ = {
+			isa = PBXGroup;
+			children = (
+				68F9C1351D48C405003ED3ED /* Utilities */,
+				686F9D8E1D43C46700658451 /* Model */,
+				68F9C13A1D49363C003ED3ED /* Storyboards */,
+				6893A90B1D4019650011D937 /* MuseumCollectionViewController.swift */,
+				68F9C1381D49358C003ED3ED /* MuseumCollectionViewController+CellDelegates.swift */,
+				6893A90F1D401D8F0011D937 /* MuseumCollectionViewCell.swift */,
+				6893A8DB1D4017180011D937 /* AppDelegate.swift */,
+				6893A8E21D4017180011D937 /* Assets.xcassets */,
+				6893A8E41D4017180011D937 /* LaunchScreen.storyboard */,
+				6893A8E71D4017180011D937 /* Info.plist */,
+			);
+			path = Museum;
+			sourceTree = "<group>";
+		};
+		6893A8EF1D4017180011D937 /* MuseumTests */ = {
+			isa = PBXGroup;
+			children = (
+				6893A8F01D4017180011D937 /* MuseumTests.swift */,
+				6893A8F21D4017180011D937 /* Info.plist */,
+			);
+			path = MuseumTests;
+			sourceTree = "<group>";
+		};
+		6893A8FA1D4017180011D937 /* MuseumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6893A8FB1D4017180011D937 /* MuseumUITests.swift */,
+				6893A8FD1D4017180011D937 /* Info.plist */,
+			);
+			path = MuseumUITests;
+			sourceTree = "<group>";
+		};
+		68F9C1351D48C405003ED3ED /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				68F9C1361D48C436003ED3ED /* ExtensionUtility.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		68F9C13A1D49363C003ED3ED /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6893A8DF1D4017180011D937 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		F30E6A45F1A294A875647F9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D0E5BFBD2187AE535DF3BDE /* Pods_Museum.framework */,
+				AE0E1E636D3DCC891562CADC /* Pods_MuseumTests.framework */,
+				178AC27EB2762AB060F17472 /* Pods_MuseumUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6893A8D71D4017170011D937 /* Museum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6893A9001D4017180011D937 /* Build configuration list for PBXNativeTarget "Museum" */;
+			buildPhases = (
+				68613EE1C9C3F99DA0B9853B /* [CP] Check Pods Manifest.lock */,
+				6893A8D41D4017170011D937 /* Sources */,
+				6893A8D51D4017170011D937 /* Frameworks */,
+				6893A8D61D4017170011D937 /* Resources */,
+				E5E94FC45E43CD745A1F783B /* [CP] Embed Pods Frameworks */,
+				2B7E71C49D94C57D95107910 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Museum;
+			productName = Museum;
+			productReference = 6893A8D81D4017170011D937 /* Museum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6893A8EB1D4017180011D937 /* MuseumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6893A9031D4017180011D937 /* Build configuration list for PBXNativeTarget "MuseumTests" */;
+			buildPhases = (
+				BFD2ACC7DDB1E55325F2E4F0 /* [CP] Check Pods Manifest.lock */,
+				6893A8E81D4017180011D937 /* Sources */,
+				6893A8E91D4017180011D937 /* Frameworks */,
+				6893A8EA1D4017180011D937 /* Resources */,
+				4EBEB4BB1AB80561C076B4B1 /* [CP] Embed Pods Frameworks */,
+				6A3C77BD30F11D2D3D0C2B66 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6893A8EE1D4017180011D937 /* PBXTargetDependency */,
+			);
+			name = MuseumTests;
+			productName = MuseumTests;
+			productReference = 6893A8EC1D4017180011D937 /* MuseumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6893A8F61D4017180011D937 /* MuseumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6893A9061D4017180011D937 /* Build configuration list for PBXNativeTarget "MuseumUITests" */;
+			buildPhases = (
+				5713AF653FD68E60CE60D8D3 /* [CP] Check Pods Manifest.lock */,
+				6893A8F31D4017180011D937 /* Sources */,
+				6893A8F41D4017180011D937 /* Frameworks */,
+				6893A8F51D4017180011D937 /* Resources */,
+				7B9679039BD316C9082BA4F5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6893A8F91D4017180011D937 /* PBXTargetDependency */,
+			);
+			name = MuseumUITests;
+			productName = MuseumUITests;
+			productReference = 6893A8F71D4017180011D937 /* MuseumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6893A8D01D4017170011D937 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Gramos Begolli";
+				TargetAttributes = {
+					6893A8D71D4017170011D937 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6893A8EB1D4017180011D937 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6893A8D71D4017170011D937;
+					};
+					6893A8F61D4017180011D937 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6893A8D71D4017170011D937;
+					};
+				};
+			};
+			buildConfigurationList = 6893A8D31D4017170011D937 /* Build configuration list for PBXProject "Museum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6893A8CF1D4017170011D937;
+			productRefGroup = 6893A8D91D4017170011D937 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6893A8D71D4017170011D937 /* Museum */,
+				6893A8EB1D4017180011D937 /* MuseumTests */,
+				6893A8F61D4017180011D937 /* MuseumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6893A8D61D4017170011D937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6893A8E61D4017180011D937 /* LaunchScreen.storyboard in Resources */,
+				6893A8E31D4017180011D937 /* Assets.xcassets in Resources */,
+				6893A8E11D4017180011D937 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6893A8EA1D4017180011D937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6893A8F51D4017180011D937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B7E71C49D94C57D95107910 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Museum/Pods-Museum-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EBEB4BB1AB80561C076B4B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuseumTests/Pods-MuseumTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5713AF653FD68E60CE60D8D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		68613EE1C9C3F99DA0B9853B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A3C77BD30F11D2D3D0C2B66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuseumTests/Pods-MuseumTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B9679039BD316C9082BA4F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuseumUITests/Pods-MuseumUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFD2ACC7DDB1E55325F2E4F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E5E94FC45E43CD745A1F783B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Museum/Pods-Museum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6893A8D41D4017170011D937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				686F9D921D43C74100658451 /* Network.swift in Sources */,
+				6893A9101D401D8F0011D937 /* MuseumCollectionViewCell.swift in Sources */,
+				6893A90C1D4019650011D937 /* MuseumCollectionViewController.swift in Sources */,
+				6893A8DC1D4017180011D937 /* AppDelegate.swift in Sources */,
+				68F9C1371D48C436003ED3ED /* ExtensionUtility.swift in Sources */,
+				68F9C1391D49358C003ED3ED /* MuseumCollectionViewController+CellDelegates.swift in Sources */,
+				686F9D901D43C48700658451 /* Painting.swift in Sources */,
+				6814F95E1D44AE8700B40C7A /* Museum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6893A8E81D4017180011D937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6893A8F11D4017180011D937 /* MuseumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6893A8F31D4017180011D937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6893A8FC1D4017180011D937 /* MuseumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6893A8EE1D4017180011D937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6893A8D71D4017170011D937 /* Museum */;
+			targetProxy = 6893A8ED1D4017180011D937 /* PBXContainerItemProxy */;
+		};
+		6893A8F91D4017180011D937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6893A8D71D4017170011D937 /* Museum */;
+			targetProxy = 6893A8F81D4017180011D937 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6893A8DF1D4017180011D937 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6893A8E01D4017180011D937 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6893A8E41D4017180011D937 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6893A8E51D4017180011D937 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6893A8FE1D4017180011D937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6893A8FF1D4017180011D937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6893A9011D4017180011D937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAC5BD50C648D991C4BAD88D /* Pods-Museum.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Museum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Museum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6893A9021D4017180011D937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61DFDE237CC565EFD8F98508 /* Pods-Museum.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Museum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Museum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6893A9041D4017180011D937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CD71AB34E37627579381B2E /* Pods-MuseumTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MuseumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MuseumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Museum.app/Museum";
+			};
+			name = Debug;
+		};
+		6893A9051D4017180011D937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D529DB65F9AE166B090879F1 /* Pods-MuseumTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MuseumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MuseumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Museum.app/Museum";
+			};
+			name = Release;
+		};
+		6893A9071D4017180011D937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D865E6DA9F3B9455673B58F8 /* Pods-MuseumUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MuseumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MuseumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Museum;
+			};
+			name = Debug;
+		};
+		6893A9081D4017180011D937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98A4DDEA271896A814A97F56 /* Pods-MuseumUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MuseumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MuseumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Museum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6893A8D31D4017170011D937 /* Build configuration list for PBXProject "Museum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6893A8FE1D4017180011D937 /* Debug */,
+				6893A8FF1D4017180011D937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6893A9001D4017180011D937 /* Build configuration list for PBXNativeTarget "Museum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6893A9011D4017180011D937 /* Debug */,
+				6893A9021D4017180011D937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6893A9031D4017180011D937 /* Build configuration list for PBXNativeTarget "MuseumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6893A9041D4017180011D937 /* Debug */,
+				6893A9051D4017180011D937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6893A9061D4017180011D937 /* Build configuration list for PBXNativeTarget "MuseumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6893A9071D4017180011D937 /* Debug */,
+				6893A9081D4017180011D937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6893A8D01D4017170011D937 /* Project object */;
+}
